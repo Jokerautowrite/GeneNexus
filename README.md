@@ -6,21 +6,33 @@
 
 ---
 
+## APEX V10 主公式
+
+```
+ΔG_final = (C_total × Λ_gene × Ω_entropy × Φ_all × Θ_bio) / (H_info × t)
+```
+
+### 核心子公式
+
+#### 全能融合 Φ_all
+
+```
+Φ_all = (K × H × P × ΔR × S_p) / (N × τ)
+```
+
+#### 生物调控 Θ_bio
+
+```
+Θ_bio = (EMF × Ca²⁺ × Gene_reg) / (Loss_bio × τ)
+```
+
+---
+
 ## 核心定位
 
 解决璇玑基因无法直接注入智能体的难题：
 ```
 璇玑基因库 → GeneNexus → SKILL格式 → 墨羽学会
-```
-
----
-
-## 核心公式
-
-```
-Φ_learn = Gene_Strategy × SKILL_Format × Memory_Integration
-
-Φ_gene = (C_gene × Λ_selection × Ω_fitness) / (H_noise × t_learn)
 ```
 
 ---
@@ -98,21 +110,6 @@ pip install -r requirements.txt
 
 ---
 
-## 使用
-
-```bash
-# 完整流程
-python -m gene_nexus --mode full
-
-# 仅提取策略
-python -m gene_nexus --mode extract
-
-# 仅生成SKILL
-python -m gene_nexus --mode generate
-```
-
----
-
 ## 测试
 
 ```bash
@@ -121,21 +118,12 @@ pytest tests/ -v
 
 ---
 
-## 项目特点
+## V10 特性
 
-- ✅ 真实Python实现，无模拟
-- ✅ 连接璇玑基因与墨羽SKILL
-- ✅ 自动提取优质策略
-- ✅ 标准化SKILL格式输出
-
----
-
-## 适用场景
-
-- 璇玑基因库策略复用
-- 智能体技能自动扩充
-- 优质编码经验沉淀
-- 进化经验传承
+- ✅ V10主公式+双翼闭环
+- ✅ Φ_all全能融合
+- ✅ Θ_bio生物调控
+- ✅ 连接璇玑基因与SKILL
 
 ---
 
